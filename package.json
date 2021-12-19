@@ -1,0 +1,77 @@
+{
+  "name": "goodrealestate-cms",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "27.1.0",
+    "@ckeditor/ckeditor5-react": "3.0.2",
+    "@date-io/dayjs": "1.x",
+    "@material-ui/core": "4.11.2",
+    "@material-ui/icons": "4.11.2",
+    "@material-ui/lab": "4.0.0-alpha.57",
+    "@material-ui/pickers": "3.2.10",
+    "@material-ui/system": "4.11.2",
+    "@psyrenpark/api": "1.0.46",
+    "@psyrenpark/auth": "1.0.79",
+    "@psyrenpark/storage": "1.0.4",
+    "amazon-cognito-identity-js": "4.6.0",
+    "aws-amplify": "3.3.27",
+    "axios": "0.21.1",
+    "crypto-js": "4.0.0",
+    "dayjs": "1.10.1",
+    "js-cookie": "2.2.1",
+    "jsonwebtoken": "8.5.1",
+    "query-string": "6.13.8",
+    "react": "^17.0.1",
+    "react-app-polyfill": "2.0.0",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "11.2.4",
+    "react-hook-form": "6.13.1",
+    "react-query": "3.13.10",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.1",
+    "react-table": "7.6.3",
+    "recoil": "0.2.0",
+    "regenerator-runtime": "0.13.7",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "react-app-rewired": "2.1.8",
+    "source-map-explorer": "2.5.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build && open build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "analyze": "react-app-rewired build && source-map-explorer 'build/static/js/*.js'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "off",
+      "eqeqeq": "off",
+      "default-case": "off",
+      "no-empty-pattern": "off",
+      "no-useless-escape": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "import/no-anonymous-default-export": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

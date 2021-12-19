@@ -1,0 +1,7 @@
+# GET https://4za64xeik1.execute-api.ap-northeast-2.amazonaws.com/prod/v1/cdn/apart/list?page=1&paginate=10
+# GET https://4za64xeik1.execute-api.ap-northeast-2.amazonaws.com/prod/v1/cdn/member/list?member_type=A&term_start=2021-04-01&term_end=2021-06-01
+# GET https://4za64xeik1.execute-api.ap-northeast-2.amazonaws.com/prod/v1/cdn/review/list?member_pk=1
+
+GET https://4za64xeik1.execute-api.ap-northeast-2.amazonaws.com/prod/v1/cdn/settlement/list?page=1&paginate=10&term_start=2021-04-10&term_end=2021-05-10&status=none
+
+GET https://4za64xeik1.execute-api.ap-northeast-2.amazonaws.com/prod/v1/cdn/settlement/list?paginate=10&page=1&term_end=2022-05-10%2010%3A53%3A05&term_start=2020-04-10%2010%3A53%3A05&status=none
